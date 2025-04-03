@@ -30,7 +30,7 @@ public class Sample {
 	public static WebDriver driver;
 	public static void func() throws Exception
 	{
-		System.setProperty("webdriver.edge.driver",".\\Drivers\\msedgedriver.exe" );
+		System.setProperty("webdriver.edge.driver",".\\Drivers\\msedgedriver134.exe" );
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\dthirum4\\OneDrive - UHG\\Migrated\\Devibala_New\\Payer Products\\Drivers\\chromedriver.exe");
 		//System.setProperty("webdriver.edge.driver","C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
 		driver=new EdgeDriver();
