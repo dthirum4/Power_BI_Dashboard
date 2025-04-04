@@ -30,13 +30,14 @@ public class Sample {
 	public static WebDriver driver;
 	public static void func() throws Exception
 	{
+		System.out.println("Welcome from gitHub changes");
 		System.setProperty("webdriver.edge.driver",".\\Drivers\\msedgedriver.exe" );
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\dthirum4\\OneDrive - UHG\\Migrated\\Devibala_New\\Payer Products\\Drivers\\chromedriver.exe");
 		//System.setProperty("webdriver.edge.driver","C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
 		driver=new EdgeDriver();
 		
 		try {
-			
+		System.out.println("Driver started from gitHub changes");	
 		//launch_chrome
 		Thread.sleep(5000);
 		driver.manage().window().maximize();
@@ -44,7 +45,9 @@ public class Sample {
 	}
 		finally 
 		{
-		//driver.close();
+		Thread.sleep(5000);	
+		driver.close();
+		System.out.println("driver closed succeefully from gitHub changes");
 		}
 	}
 
